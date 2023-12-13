@@ -1,0 +1,42 @@
+.popularMovie {
+  margin: 20px;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.bg {
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.popularMovie::-webkit-scrollbar {
+  display: none;
+}
+
+.img-width {
+  width: 150px;
+  border-radius: 12px;
+}
+.poster-card {
+  width: 160px;
+  margin: 10px;
+  padding: 4px;
+}
+.title-style {
+  font-weight: bold;
+}
+.date {
+  font-size: small;
+  font-weight: 500;
+}
